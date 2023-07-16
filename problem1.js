@@ -1,6 +1,5 @@
 function exponentiation(x, n) {
-    //your code
-         
+    // x di pangkat n
     return [x**n]
 }
 
