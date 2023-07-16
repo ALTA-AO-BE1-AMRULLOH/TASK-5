@@ -1,7 +1,6 @@
 function exponentiation(x, n) {
     //your code
-    const nilai = [2, 2, 7, 9, 22, 1996];
-       
+         
     return [x**n]
 }
 
