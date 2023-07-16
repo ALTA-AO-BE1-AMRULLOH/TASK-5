@@ -12,8 +12,7 @@ function meanMedian(arrayInput) {
       const middleIndex = Math.floor(sortedArray.length / 2);
       median = sortedArray[middleIndex];
     }
-  
-    return [mean, median];
+      return [mean, median];
   }
   
   console.log(meanMedian([1, 2, 3, 4]));          // [2.5, 2.5]
