@@ -1,12 +1,12 @@
 function joinArrayRemoveDuplicate(arrayA, arrayB) {
     // you are kode here
     // memerge
-    const mergedArray = [...arrayA, ...arrayB];
+    const merged = [...arrayA, ...arrayB];
   
     // membuat dalam satu set dan menghapus duplicate
-    const uniqueArray = [...new Set(mergedArray)];
+    const unique = [...new Set(merged)];
   
-    return uniqueArray;
+    return unique;
   }
   
   console.log(joinArrayRemoveDuplicate(["apel", "anggur"], ["lemon", "leci", "nanas"]))
